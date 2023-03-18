@@ -17,10 +17,10 @@ class color:
 
 dict_path = "out.txt"
 def update_db(vertical_name, OS, status, failed_job_name, failed_job_reason, failed_job_url):
-    client = InfluxDBClient(host="10.240.105.123",
+    client = InfluxDBClient(host="xx.xx.xx.xx",
                         port="8086",
-                        username='admin',
-                        password='Welcome01',
+                        username='xxxx',
+                        password='xxxxxx',
                         database='nightly_tst'
                         )
 
